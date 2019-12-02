@@ -3,18 +3,25 @@
         <title>Get It Done!</title>
     </head>
     <body>
-        <h1>To-Do List</h1>
+        <h1>To-Do List!</h1>
+
+        <style>
+                table, th, td {
+                  border: 1px solid black;
+                }
+                </style>
+                </head>
+                <body>
+                
+                <table>
+                  <tr>
+                    <th>Task<form action="/action_page.php">
+                        Add task: <input type="text" name="AddTask" value="Brush cat"></th>
+                    <th><input type="submit" value="Submit"></th>
+                    <th><input type="submit" value="Finished!"></th>
+                  </tr>                 
+                </table>
         
-        <form action="/action_page.php">
-            Add task: <input type="text" name="AddTask" value="Brush cat"><br>
-            <input type="submit" value="Submit">
-        </form>
-
-        <form action="/action_page.php">
-            Finished task: <input type="text" name="Done Task" value="HTML homework"><br>
-            <input type="submit" value="Finished!">
-        </form>
-
         <p>Tasks left to complete: </p>
 
     </body>
