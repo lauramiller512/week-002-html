@@ -2,6 +2,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: beige;
     display: block;
+    background-image: url(images/background.jpeg);
 }
 
 h1 {
@@ -9,9 +10,11 @@ h1 {
     width: 50%;
     align-self: auto;
     text-align: center;
-    background-color: coral;
+    background-color: blueviolet;
     padding: 30;
     border: 3px solid blueviolet;
+    border-radius: 25px;
+    background: ;
 }
 
 .form {
@@ -24,6 +27,10 @@ h1 {
     padding: 10px;
     border: 3px solid firebrick;
     background-color: darksalmon;
+    display: inline-block;
+    margin: auto;
+    height: 3em;
+    border: 1px solid #abc;
 }
 
 .tasks {
