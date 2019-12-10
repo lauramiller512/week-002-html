@@ -5,7 +5,7 @@ body {
     background-image: url(images/background.jpeg);
 }
 
-h1 {
+header {
     margin: auto;
     width: 50%;
     align-self: auto;
@@ -14,7 +14,10 @@ h1 {
     padding: 30;
     border: 2px solid blueviolet;
     border-radius: 25px;
-    background-image: url(images/darkblueback.jpg) ;
+    background-image: url(images/darkblueback.jpg);
+    font-weight: bold;
+    font-size: 45px;
+    color: lavender;
 }
 
 .form {
@@ -30,6 +33,11 @@ h1 {
     margin-left: 1px;
     margin-right: 1335px;
     background-image: url(images/blueback.jpg);
+}
+
+.button {
+    color: blueviolet;
+    font-weight: bold;
 }
 
 .todo {
@@ -49,6 +57,14 @@ h1 {
 
 .tasks {
     float: left;
+}
+
+.edit {
+    color: green;
+}
+
+.done {
+    color: red;
 }
 
 table {
