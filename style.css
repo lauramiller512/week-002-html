@@ -12,21 +12,23 @@ h1 {
     text-align: center;
     background-color: #B0E0E6;
     padding: 30;
-    border: 3px solid blueviolet;
+    border: 2px solid blueviolet;
     border-radius: 25px;
-    background: ;
+    background-image: url(images/darkblueback.jpg) ;
 }
 
 .form {
-    margin: 30px;
     background-color: cornflowerblue;
-    padding-top: 15px;
+    font-size: 25;
+    padding-top: 20px;
     padding-bottom: 10px;
+    padding-left: 35px;
     border-radius: 10px;
-    align-self: left;
+    border-color: blue;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 1px;
+    margin-right: 1335px;
     background-image: url(images/blueback.jpg);
 }
 
@@ -34,13 +36,15 @@ h1 {
     padding-bottom: 40px;
     padding-left: 30px;
     padding-right: 20px;
-    border: 3px solid firebrick;
+    border: 9px solid firebrick;
     background-color: #B0E0E6;
     border-radius: 25px;
+    border-radius: blue;
     display: inline-block;
-    margin: auto;
+    margin: auto; 
     height: 15em; 
     border: 1px solid #abc;
+    background-image: url(images/blueback.jpg);
 }
 
 .tasks {
