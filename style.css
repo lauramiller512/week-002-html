@@ -66,14 +66,3 @@ header {
 .done {
     color: red;
 }
-
-table {
-    border: 6px solid burlywood;     /*This is a comment */
-    align-self: center;
-    
-  }
-
-h1 {
-    color: brown;
-    align-self: center;
-}
