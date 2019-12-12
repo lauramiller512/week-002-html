@@ -20,6 +20,10 @@ header {
     color: lavender;
 }
 
+h2 {
+    font-size: 35;
+}
+
 .form {
     background-color: cornflowerblue;
     font-size: 25;
