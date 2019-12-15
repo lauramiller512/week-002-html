@@ -36,6 +36,7 @@
     border-radius: 10px;
     margin-top: 3em;
     width: 100%;
+    padding-top: 8px;
     
 }
 
@@ -51,4 +52,12 @@ h2 {
     border-radius: 10px;
     margin-top: 3em;
     width: 100%;
+}
+
+.done {
+    color: rgb(3, 71, 3);
+}
+
+.edit {
+    color: rgb(150, 4, 4);
 }
