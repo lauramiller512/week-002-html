@@ -13,20 +13,31 @@
 
 <body>
 
+  <!--add a control so the visitor can switch off the music-->
   <div id="player">
     <audio autoplay hidden>
       <source src="music/The_Beaten_Path.mp3" type="audio/mpeg">
       If you're reading this, audio isn't supported.
     </audio>
   </div>
+  
 
   <div class="container-fluid">
     <div class="row">
       <div class="col-12">
         <div class="topnav">
           <a class="active" href="#home">HOME</a>
-          <a href="#news">Pricing</a>
           <a href="#contact">Contact</a>
+          <div class="dropdown">
+            <button class="dropbtn">Categories
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Shopping</a>
+              <a href="#">Exercise Setlist</a>
+              <a href="#">Another category</a>
+            </div>
+          </div>
           <a href="#about">Categories</a>
         </div>
       </div>
