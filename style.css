@@ -11,7 +11,7 @@ body {
     align-self: auto;
     text-align: center;
     background-color: #B0E0E6;
-    padding: 30;
+    padding: 30; 
     border: 2px solid blueviolet;
     border-radius: 25px;
     background-image: url(images/darkblueback.jpg);
@@ -31,13 +31,11 @@ h2 {
     font-size: 25;
     padding-top: 20px;
     padding-bottom: 10px;
-    padding-left: 35px;
+    padding-left: 30px;
     border-radius: 10px;
     border-color: blue;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 1px;
-    margin-right: 1335px;
+    margin-bottom: 10px;
+    margin-top: 15px;
     background-image: url(images/blueback.jpg);
 }
 
@@ -47,17 +45,17 @@ h2 {
 }
 
 .todo {
-    padding-bottom: 40px;
+    /* padding-bottom: 60px; */
     padding-left: 30px;
     padding-right: 20px;
-    border: 9px solid firebrick;
+    border-color: 4px solid firebrick;
     background-color: #B0E0E6;
-    border-radius: 25px;
-    border-radius: blue;
+    border-radius: 10px;
+    border-color: blue;
     display: inline-block;
-    margin: auto; 
+    margin-top: 15px;
+    margin-bottom: 10px;
     height: 15em; 
-    border: 1px solid #abc;
     background-image: url(images/blueback.jpg);
 }
 
