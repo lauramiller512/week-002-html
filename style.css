@@ -5,7 +5,7 @@ body {
     background-image: url(images/background.jpeg);
 }
 
-header {
+.jumbotron {
     margin: auto;
     width: 50%;
     align-self: auto;
@@ -23,6 +23,8 @@ header {
 h2 {
     font-size: 35;
 }
+
+/* Fix the width of .form */
 
 .form {
     background-color: cornflowerblue;

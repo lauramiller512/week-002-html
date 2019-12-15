@@ -1,37 +1,57 @@
 <html>
-    <head>
-        <title>Get It Done!</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-        <header>To-Do List!</header>
+
+<head>
+  <title>Get It Done!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+  <div class="jumbotron text-center">
+    <h1>To-Do List!</h1>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
 
         <div class="form">
-        <form action="/action_page.php">
-          Add a task: <input type="text" name="fname" value="Enter your task here">
-          <input class="button" type="submit" value="SUBMIT">
-        </form>
+          <form action="/action_page.php">
+            Add a task: <input type="text" name="fname" value="Enter your task here">
+            <input class="button" type="submit" value="SUBMIT">
+          </form>
         </div>
-                
-        <!-- Turn into a table (maybe?) so task can be separated from radio buttons -->
 
-        <div class="todo">
-        <p><h2>Tasks left to complete: </h2></br>
+      </div>
+    </div>
+
+    <div class="col-12">
+      <div class="todo">
+        <p>
+          <h2>Tasks left to complete: </h2></br>
           <ul class="tasks">
             <li>Walk the dog <input class="edit" type="Button" value="Edit">
               <input class="done" type="Button" value="I did this! &#10004"></li>
-            <li>Brush the cat  <input class="edit" type="Button" value="Edit">
+            <li>Brush the cat <input class="edit" type="Button" value="Edit">
               <input class="done" type="Button" value="I did this! &#10004"></li>
-            <li>Buy Christmas presents  <input class="edit" type="Button" value="Edit">
+            <li>Buy Christmas presents <input class="edit" type="Button" value="Edit">
               <input class="done" type="Button" value="I did this! &#10004"></li>
-            <li>Make egg pasta  <input class="edit" type="Button" value="Edit">
+            <li>Make egg pasta <input class="edit" type="Button" value="Edit">
               <input class="done" type="Button" value="I did this &#10004!"></li>
-            <li>Eat cheese  <input class="edit" type="Button" value="Edit">
+            <li>Eat cheese <input class="edit" type="Button" value="Edit">
               <input class="done" type="Button" value="I did this &#10004!"></li>
           </ul>
-          </p>
-        </div>
-        
+        </p>
+      </div>
+    </div>
 
-    </body>
+  </div>
+
+</body>
+
 </html>
