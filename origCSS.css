@@ -1,0 +1,72 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: beige;
+    display: block;
+    background-image: url(images/background.jpeg);
+}
+
+.jumbotron {
+    margin: auto;
+    width: 50%;
+    align-self: auto;
+    text-align: center;
+    background-color: #B0E0E6;
+    padding: 30; 
+    border: 2px solid blueviolet;
+    border-radius: 25px;
+    background-image: url(images/darkblueback.jpg);
+    font-weight: bold;
+    font-size: 45px;
+    color: lavender;
+}
+
+h2 {
+    font-size: 35;
+}
+
+/* Fix the width of .form */
+
+.form {
+    background-color: cornflowerblue;
+    font-size: 25;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    border-radius: 10px;
+    border-color: blue;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    background-image: url(images/blueback.jpg);
+}
+
+.button {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.todo {
+    /* padding-bottom: 60px; */
+    padding-left: 30px;
+    padding-right: 20px;
+    border-color: 4px solid firebrick;
+    background-color: #B0E0E6;
+    border-radius: 10px;
+    border-color: blue;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    height: 15em; 
+    background-image: url(images/blueback.jpg);
+}
+
+.tasks {
+    float: left;
+}
+
+.edit {
+    color: green;
+}
+
+.done {
+    color: red;
+}
