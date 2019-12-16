@@ -35,7 +35,7 @@
 }
 
 .form {
-    background-color: rgb(204, 214, 233, 0.6);
+    background-color: rgb(204, 214, 233, 0.7);
     font-size: 25;
     font-weight: bold;
     float: right; /* look into clearfix hack */
@@ -44,11 +44,12 @@
     width: 100%;
     /* padding-top: 8px;
     padding-bottom: 8px; */
-    padding: 8px 0 8px 5px;    
+    padding: 8px 0 8px 5px;  
+    text-align: center;
 }
 
 .myText {
-    width: 30%;
+    width: 40%;
 }
 
 .done {
@@ -64,18 +65,18 @@
 
 h2 {
     font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 .todo {
-    background-color: rgb(204, 214, 233, 0.6);
+    background-color: rgb(204, 214, 233, 0.7);
     font-size: 25;
     font-weight: bold;
-    float: right;
     border-radius: 10px;
     margin-top: 3em;
     width: 100%;
-    padding: 8px 0 8px 5px;    
-
+    padding: 8px 0 8px 5px;
 }
 
 .done {
@@ -84,4 +85,9 @@ h2 {
 
 .edit {
     color: rgb(150, 4, 4);
+}
+
+.tasks {
+    text-align: left;
+    list-style-type: none;    
 }
