@@ -25,7 +25,7 @@
 }
 
 .topnav a:hover {
-    background-color: rgb(146, 218, 228);
+    background-color: rgb(68, 127, 134);
     color: white;
 }
 
@@ -49,6 +49,17 @@
 
 .myText {
     width: 30%;
+}
+
+.done {
+    width: 80%;
+    display: inline-block;
+    text-align: center;
+}
+
+.edit {
+    width: 80%;
+    align-self: center;
 }
 
 h2 {
