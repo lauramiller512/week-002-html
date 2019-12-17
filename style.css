@@ -29,6 +29,10 @@
     color: white;
 }
 
+.calendar {
+    width: 1.5em;
+}
+
 .form {
     background-color: rgb(204, 214, 233, 0.7);
     font-size: 25;
