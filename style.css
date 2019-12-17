@@ -9,14 +9,14 @@
 }
 
 .topnav {
-    background-color: gray;
+    /* background-color: gray; */
     overflow: hidden;
-    opacity: 0.7;
+    opacity: 1;
 }
 
 .topnav a {
     float: right;
-    color: black;
+    color: whitesmoke;
     text-align: center;
     padding: 25px 16px;
     text-decoration: none;
@@ -26,11 +26,6 @@
 
 .topnav a:hover {
     background-color: rgb(68, 127, 134);
-    color: white;
-}
-
-.topnav a.active {
-    background-color: rgb(41, 84, 104);
     color: white;
 }
 
